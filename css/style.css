@@ -1,0 +1,186 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+}
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between ;
+    padding:13px 35.5px ;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader {
+    width: 100%;
+    position: absolute;
+    height: 84px;
+    background-color: rgba(0,0,0, .6) ;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+        margin-top: 6px;    
+        opacity: 0.5;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader .subheader_call {
+        margin-top: 23px;
+        font-size: 12px;
+        font-weight: 300;
+        /* line-height: 14px; */
+        color: #ffffff;
+        text-align: right;
+}
+
+.subheader .subheader_phone {
+        display: block;
+        margin-top: 8px;
+        font-size: 22px;
+        text-align: right;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 12px;
+        
+}
+.subheader .subheader_btn {
+        margin-top: 19px;
+        width: 172px;
+        height: 46px;
+        box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+        /* border: solid 3px rgba(0, 0, 0, 0.07); */
+        border-radius: 4px;
+        background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+        text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+        
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+    }
+.promo {
+    min-height: 800px;
+    background: url(../img/fon/fon-verh-chel-avto.jpg) center center/cover no-repeat ;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 22px;
+
+  }
+
+  .promo .promo_descr {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 23px;
+  }
+  
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    /* border: solid 3px rgba(0, 0, 0, 0.07); */
+    border-radius:4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.icon_body .body_icon .oll_body_text_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.icon_body .body_icon .oll_body_text_image .icon_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1eacc7;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    margin-right: 26px;
+}
+
+.icon_body .body_icon  .oll_body_text_image .all_descr {
+    width: 343px;
+    
+}
+
+.icon_body .body_icon  .oll_body_text_image .text_image {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+
+.text_prim {
+    text-align: center; 
+    width: 112px;
+    height: 24px;
+    background-color:black;
+    font-size: 11px;
+    font-weight: 100;
+    color: #ffffff;
+    margin:74px auto;
+    text-transform: uppercase;
+    padding: 6px 12px ;
+  }
+.osn_prichin {
+    text-align: center;
+    margin: 44px auto 0px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    background: url(../)
+}
+
